@@ -1,0 +1,16 @@
+{
+  "name": "Advaith Homes Admin Portal",
+  "short_name": "Advaith Admin",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c9a84c",
+  "icons": [
+    {
+      "src": "assets/images/logo-mark.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
