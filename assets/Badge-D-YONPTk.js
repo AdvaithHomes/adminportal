@@ -1,0 +1,36 @@
+import{c as n,b2 as y,j as c,o as u,ae as s,p as k,ap as f,M as b}from"./index-cb7KoWjP.js";import{S as m}from"./shield-check-zOFbXozQ.js";import{S as g}from"./shield-alert-CpAMxFin.js";import{M as x}from"./mail-open-gwRp7Mq0.js";/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const p=n("Activity",[["path",{d:"M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2",key:"169zse"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const v=n("Ban",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"m4.9 4.9 14.2 14.2",key:"1m5liu"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const C=n("CircleDot",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["circle",{cx:"12",cy:"12",r:"1",key:"41hilf"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const w=n("CirclePause",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["line",{x1:"10",x2:"10",y1:"15",y2:"9",key:"c1nkhi"}],["line",{x1:"14",x2:"14",y1:"15",y2:"9",key:"h65svq"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const M=n("FilePen",[["path",{d:"M12.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v9.5",key:"1couwa"}],["path",{d:"M14 2v4a2 2 0 0 0 2 2h4",key:"tnqrlb"}],["path",{d:"M13.378 15.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",key:"1y4qbx"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const S=n("FileX",[["path",{d:"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",key:"1rqfz7"}],["path",{d:"M14 2v4a2 2 0 0 0 2 2h4",key:"tnqrlb"}],["path",{d:"m14.5 12.5-5 5",key:"b62r18"}],["path",{d:"m9.5 12.5 5 5",key:"1rk7el"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const j=n("Upload",[["path",{d:"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4",key:"ih7n3h"}],["polyline",{points:"17 8 12 3 7 8",key:"t8dd8p"}],["line",{x1:"12",x2:"12",y1:"3",y2:"15",key:"widbto"}]]),A=i=>{const r=String(i||"").trim(),e=r.toLowerCase();if(e==="enabled"||e==="login enabled")return m;if(e==="disabled"||e==="login disabled")return g;if(e==="active"||e==="approved"||e==="accepted"||e==="completed"||e==="booked"||e==="published"||e==="visible"||e==="done")return u;if(e==="awaiting upload"||e==="upload"||e==="uploaded")return j;if(e==="pending review")return s;if(e.includes("hold"))return w;if(e.includes("pend")||e.includes("wait"))return s;if(e.includes("progress")||e.includes("process")||e.includes("shortlist"))return p;if(e.includes("action")||e.includes("correct")||e.includes("urgent")||e.includes("high"))return k;if(e.includes("reject")||e.includes("overdue")||e.includes("cancel")||e.includes("decline")||e.includes("fail")||e.includes("critical"))return f;if(e.includes("inact")||e.includes("disab")||e.includes("hidden"))return v;if(e.includes("no doc")||e==="no documents")return S;if(e==="read")return x;if(e==="unread")return b;if(e==="draft")return M;const a=y(r);return a==="ok"?u:a==="warn"?s:a==="bad"?f:a==="info"?p:C},$=i=>{if(!i)return null;const r=String(i).toLowerCase();return r==="success"||r==="ok"?"ok":r==="danger"||r==="error"||r==="bad"?"bad":r==="warning"||r==="warn"?"warn":r==="info"?"info":r==="muted"||r==="neutral"?"muted":r};function F({value:i,status:r,tone:e,symbolOnly:a=!1,className:l="",title:d}){const t=i??r,o=$(e)||y(t);if(a){const h=A(t);return c.jsx("span",{className:`badge badge-symbol ${o}${l?` ${l}`:""}`,"data-title":d||t,"aria-label":d||t,role:"img",children:c.jsx(h,{size:14,"aria-hidden":"true"})})}return c.jsx("span",{className:`badge ${o}${l?` ${l}`:""}`,children:t})}export{p as A,v as B,w as C,F as S,j as U};
