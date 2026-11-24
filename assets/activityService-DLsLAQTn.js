@@ -1,1 +1,0 @@
-import{a7 as i,ad as a}from"./index-Dz3gmaBr.js";const c=(t,e={})=>i.auth.get(`/clients/${encodeURIComponent(t)}/activity`,{priority:a.LOW,...e}),n=(t={})=>i.auth.get("/activity",{priority:a.LOW,...t});export{c as a,n as g};

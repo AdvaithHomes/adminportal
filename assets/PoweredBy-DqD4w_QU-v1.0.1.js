@@ -1,0 +1,1 @@
+import{j as e}from"./index-BlG_hhbw-v1.0.1.js";const r="Akhilesh Ravuri",s="https://viewus.github.io/";function o(){return e.jsxs("p",{className:"powered-by",children:["Designed & Developed by"," ",e.jsx("a",{href:s,target:"_blank",rel:"noopener noreferrer",className:"powered-by-link",children:e.jsx("strong",{children:r})})]})}export{o as P};
