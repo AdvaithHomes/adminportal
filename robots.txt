@@ -4,6 +4,6 @@
 # portal out of results. A "Disallow: /" here would hide that tag, and a blocked
 # URL can still appear in search if it is linked from elsewhere.
 # For the strongest protection also send the HTTP header "X-Robots-Tag: noindex, nofollow"
-# from the web server (see advaithHomesClientPortalDocs/backend/wordpress-backend-design.md).
+# from the web server (see advaithHomesCRMPortalDocs/backend/wordpress-backend-design.md).
 User-agent: *
 Allow: /

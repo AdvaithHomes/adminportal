@@ -1,1 +1,0 @@
-import{a5 as i,ab as a}from"./index-cb7KoWjP.js";const c=(t,e={})=>i.auth.get(`/clients/${encodeURIComponent(t)}/activity`,{priority:a.LOW,...e}),n=(t={})=>i.auth.get("/activity",{priority:a.LOW,...t});export{c as a,n as g};
